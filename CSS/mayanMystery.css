@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: auto; /* Enable both horizontal and vertical scrollbars */
+    text-align: center; /* Center the image horizontally */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #000;
+    align-items: center;
+}
+
+nav a:hover {
+    color:#a73613;
+    transition: color 0.3s;
+}
+
+nav a img {
+    height: 17px;
+    width: auto;
+    margin-right: 5px;
+}
+
+img {
+    width: 1222px;
+    height: auto;
+    padding-top: 5px;
+
+}
