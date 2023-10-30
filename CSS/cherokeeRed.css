@@ -5,9 +5,13 @@ body {
     text-align: center; /* Center the image horizontally */
 }
 
+.container {
+    position: relative; /* Add a relative position to the container */
+}
+
 nav {
-    position: fixed;
-    top: 0;
+    position: absolute; /* Position the nav absolutely */
+    bottom: 0; /* Position it at the bottom */
     left: 0;
     width: 100%;
     background-color: #fff;
@@ -34,7 +38,7 @@ nav a img {
     margin-right: 5px;
 }
 
-.container img {
+img {
     width: 1190px;
     height: auto;
 }
