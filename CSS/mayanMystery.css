@@ -10,7 +10,6 @@ body {
 }
 
 nav {
-    position: absolute; /* Position the nav absolutely */
     bottom: 0; /* Position it at the bottom */
     left: 0;
     width: 100%;
