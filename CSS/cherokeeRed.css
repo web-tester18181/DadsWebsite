@@ -1,30 +1,30 @@
 body {
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
-    overflow: auto; /* Enable both horizontal and vertical scrollbars */
-    text-align: center; /* Center the image horizontally */
+    overflow: auto;
+    text-align: center;
 }
 
 .container {
-    position: relative; /* Add a relative position to the container */
+    position: relative;
 }
 
 nav {
-    position: absolute; /* Position the nav absolutely */
-    bottom: 0; /* Position it at the bottom */
+    position: absolute;
+    bottom: 0;
     left: 0;
     width: 100%;
     background-color: #fff;
-    padding: 0;
-    margin: 0;
+    padding: 20px; /* Increase padding to create space */
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+    z-index: 2; /* Set a higher z-index for the navigation bar */
 }
 
 nav a {
     text-decoration: none;
     margin-right: 20px;
     color: #000;
-    align-items: center;
+    display: inline-block; /* Ensure each link is on a new line */
 }
 
 nav a:hover {
@@ -36,9 +36,12 @@ nav a img {
     height: 80px;
     width: auto;
     margin-right: 5px;
+    vertical-align: middle; /* Align image with text */
 }
 
 img {
-    width: 1190px;
+    width: 1190px; /* Fixed pixel length */
     height: auto;
+    position: relative; /* Add relative positioning */
+    z-index: 1; /* Set a higher z-index for the background image */
 }
