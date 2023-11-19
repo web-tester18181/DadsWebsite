@@ -78,9 +78,3 @@ img {
     z-index: 1;
 }
 
-@media (max-width: 1080px) {
-    /*nav.top-nav a, nav.bottom a */body {
-        flex: 1;
-        max-width: none;
-    }
-}
