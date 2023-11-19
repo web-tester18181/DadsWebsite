@@ -73,7 +73,7 @@ nav.bottom a:hover img {
 }
 
 img {
-    width: 1080px;
+    width: 100%;
     height: auto;
     z-index: 1;
 }
